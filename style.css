@@ -1,0 +1,54 @@
+* {
+    margin: 1em;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+.card{
+    margin-top: 0.5em;
+}
+#splitBtn{
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    width: 100%;
+    border-radius: 3px;
+    margin-left: -2em;
+    margin-top: 1em;
+}
+
+.insert{
+    margin-top: -1em;
+}
+
+#resetBtn{
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    width: 100%;
+    border-radius: 3px;
+    margin-left: -2em;
+}
+
+#perPersonParagraph{
+    margin-bottom: -1em;
+}
+
+#groupTotal{
+    background-color: black;
+    color: white;
+    font-size: 1em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    border-radius: 3px;
+}
+
+#cardElements {
+    margin-left: 0 ;
+}
+
+#listOfSpents{
+    list-style:none;
+}

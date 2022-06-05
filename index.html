@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- CSS only -->
+     <link rel="stylesheet" href="style.css">
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+
+  <div class="row">
+    <div class="col-md-6 col-lg-6 col-sm-6">
+      <div class="card" style="width: 25rem;">
+        <div class="card-body text-center">
+          <div class="header">
+            <h5 class="card-title text-center">APP DE GASTOS</h5>
+            <p class="card-text text-center">Ingresá cuánto pagó cada uno</p>
+          </div>
+          <form class="insert">
+                <label id="quienes_estan">Quienes están?</label>
+                <input type="text" id="group" placeholder="Ingresar participantes" required />
+                <button id="groupTotal">Ingresar</button>
+                <ul id="submitGroup"></ul>
+                <label id="nameL">Ingresá tu nombre</label>
+                <input type="text" id="person_name" placeholder="Nombre" required />
+                <label id="totalL">Ingresá gasto</label>
+                <input type="number" id="total" placeholder="Ingresa el total" required/>
+            <div class="buttonSpace">
+              <div class="row">
+                <div class="col-md-12 col-lg-12 col-sm-12">
+                  <button id="splitBtn">Ingresar gasto!</button>
+                </div>
+                <div class="col-md-12 col-lg-12 col-sm-12">
+                  <button id="resetBtn">Resetear</button>
+                </div>
+              </div>
+            </div>
+            <div id="perPerson"><p>Cada uno debe pagar $0</p></div>
+            <div id="totalGastado"></div>
+          </form>
+        </div>
+    </div>
+    <div class="col-md-6 col-lg-6 col-sm-6">
+      <div id='cardElements' class="card" style="width: 25rem;">
+        <p>Rendición de cuentas</p>
+        <ul id='listElements'class="list-group list-group-flush">
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  
+
+  </div>
+    <script src="./script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+</html>
